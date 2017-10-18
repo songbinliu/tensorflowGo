@@ -1,7 +1,7 @@
 # tensorflowGo
 This project is to build a docker image, which can be a Golang development envirment for [tensorflow](http://www.tensorflow.org).
 
-The build process is based on the [instructions  ofInstalling TensorFlow for Go](https://www.tensorflow.org/install/install_go).
+The build process is based on the [instructions of Installing TensorFlow for Go](https://www.tensorflow.org/install/install_go).
 
 # how to use it
 Based on this image, put your Golang project into ${GOPATH}/src, and build it.
