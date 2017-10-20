@@ -1,0 +1,9 @@
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install curl -y 
+
+COPY install-tensorflow-lib.sh /tmp/install-tensorflow-lib.sh
+RUN chmod +x /tmp/install-tensorflow-lib.sh
+RUN sh /tmp/install-tensorflow-lib.sh
+
+

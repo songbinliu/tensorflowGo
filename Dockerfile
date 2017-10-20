@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.8
 
 COPY install-tensorflow.sh /tmp/install-tensorflow.sh
 
